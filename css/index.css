@@ -67,6 +67,10 @@ h1, h2, h3, h4, h5 {
 	margin: 0 auto;
 
 }
+img {
+  width: 100%;
+  height: auto;
+}
  header nav {
 	display: flex;
 	position: relative;
@@ -263,4 +267,23 @@ footer {
 }
 .copyright {
 	text-align: center;
+}
+/* Media queries for tablets, max-width 800px */
+@media ( max-width: 800px ){
+  header nav {
+    flex-direction: column-reverse;
+  }
+  header nav a {
+    display: flex;
+    flex-direction: row;
+  }
+  header nav .logo {
+    margin-left: 150px;
+    width: 25%;
+  }
+}
+
+/* Media queries for moblie, max-width 500px */
+@media ( max-width: 800px ){
+
 }
