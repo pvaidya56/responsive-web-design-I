@@ -77,7 +77,6 @@ header {
  header nav {
 	display: flex;
 	position: relative;
-	background-color: #F5F5F5;
 	padding-bottom: 20px;
 	border-radius: 10px;
 	width: 900px;
@@ -100,6 +99,12 @@ header nav img {
 	margin-left: 70px;
 	margin-top: 20px;
 	padding: 0 10px;
+}
+.logo {
+	width: 25%;
+	height: 40%;
+	margin-right: 60px;
+	margin-top: 20px;
 }
 .main-tag {
 	display: flex;
@@ -291,14 +296,21 @@ footer {
 		width: 135px;
 		height: 38px;
 		margin-top: 20px;
+		margin-right: 0px;
 	}
 
+	.button {
+		height: 50%;
+		width: 75%;
+		font-size: 26px;
+	}
 	.top-image {
 		display: none;
 	}
 	.middle-img {
 		margin-left: 0;
 	}
+
 
 }
 
@@ -331,6 +343,7 @@ footer {
     }
 		.logo {
 			margin-bottom: 30px;
+			margin-right: 0px;
 		}
 		.tag-line {
 			font-size: 63px;
@@ -338,7 +351,7 @@ footer {
 		.button {
 			height: 50%;
     	width: 75%;
-    font-size: 35px;
+    font-size: 28px;
 		}
 
 		.wrap-content {
