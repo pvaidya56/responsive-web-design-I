@@ -71,12 +71,14 @@ img {
   width: 100%;
   height: auto;
 }
+header {
+	display: flex;
+}
  header nav {
 	display: flex;
 	position: relative;
 	background-color: #F5F5F5;
 	padding-bottom: 20px;
-	opacity: 0.9;
 	border-radius: 10px;
 	width: 900px;
 }
@@ -119,7 +121,7 @@ header nav img {
 }
 .button {
 	font-family: 'Permanent Marker', cursive;
-	font-size: 18px;
+	font-size: 25px;
 	border: 1px solid black;
 	cursor: pointer;
 	padding: 6px 30px;
@@ -270,20 +272,36 @@ footer {
 }
 /* Media queries for tablets, max-width 800px */
 @media ( max-width: 800px ){
-  header nav {
-    flex-direction: column-reverse;
-  }
-  header nav a {
-    display: flex;
-    flex-direction: row;
-  }
-  header nav .logo {
-    margin-left: 150px;
-    width: 25%;
-  }
+	.container {
+		max-width: 800px;
+		width: 95%;
+
+	}
+	header  {
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+	header nav {
+		width: 100%;
+		background-color: white;
+		justify-content: space-around;
+	}
+	.logo{
+		width: 135px;
+		height: 38px;
+		margin-top: 20px;
+	}
+
+	.top-image {
+		display: none;
+	}
+	.middle-img {
+		margin-left: 0;
+	}
+
 }
 
 /* Media queries for moblie, max-width 500px */
-@media ( max-width: 800px ){
+@media ( max-width: 500px ){
 
 }
